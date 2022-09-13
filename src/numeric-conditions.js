@@ -4,22 +4,22 @@ const ARRAY_ONE = []
 const ARRAY_TWO = ['Hello', 'Conditions']
 
 // 1. Use conditional statements to say if ARRAY_ONE is not empty
-// then set answerOne to false 
+// then set answerOne to false
 // or true if it is empty
 let answerOne
 
-if (ARRAY_ONE != []) {
+if (ARRAY_ONE !== []) {
   answerOne = false
 } else if (ARRAY_ONE === []) {
   answerOne = true
 }
 
-// 2. Use conditional statements if ARRAY_TWO is not empty 
-// then set answerTwo to false 
-// if ARRAY_TWO is empty set answerTwo to true 
+// 2. Use conditional statements if ARRAY_TWO is not empty
+// then set answerTwo to false
+// if ARRAY_TWO is empty set answerTwo to true
 let answerTwo
 
-if (ARRAY_TWO != []) {
+if (ARRAY_TWO !== []) {
   answerTwo = false
 } else if (ARRAY_TWO === []) {
   answerTwo = true
@@ -36,15 +36,13 @@ if (NUM_ONE > NUM_TWO) {
   answerThree = true
 }
 
-const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
+// const NUMBERS = [67, 2039, 17, 501, 98, 139, 21]
 
 // 4. Use a combination of a loop and conditional statements to set answerFour
 // to the lowest number in the NUMBERS array
 let answerFour
 
-for (i in NUMBERS) {
-  
-}
+// for (i in NUMBERS)
 
 // Don't edit the code below this line
 module.exports = {
